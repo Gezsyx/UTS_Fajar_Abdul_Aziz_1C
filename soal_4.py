@@ -4,7 +4,7 @@ nama = str(input("Masukan Nama : "))
 bb = float(input("Masukan Berat Badan (Kg) : "))
 tb = float(input("Masukan Tinggi Badan (M) : "))
 
-BMI = bb/tb
+BMI = bb/tb**2
 
 if BMI < 18.5:
     hasil = "BERAT BADAN KURANG"
